@@ -1,0 +1,725 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  color:white;
+  background: linear-gradient(to right,#000000,#424242);
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 0.625em;
+  padding: 0.625%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100;
+  text-decoration: none;
+  width: 100%;
+}
+.Titre {
+  font-weight: bold;
+  font-size: 1.25em;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+}
+
+.Prenom {
+  color: gray;
+}
+
+.Nom {
+  color: white;
+}
+.navbar1 a {
+  font-size: 1em;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 1.25em;
+  transition: 0.3s;
+  font-family: Arial, sans-serif;
+}
+
+.navbar2 a {
+  font-size: 1em;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 1.25em;
+  transition: 0.3s;
+  font-family: Arial, sans-serif;
+}
+
+.navbar2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar2 fieldset {
+  border: none;
+  margin: 1.25em;
+  position: relative;
+}
+
+.navbar2 fieldset::before{
+  content: "";
+  position: absolute;
+  top: 0.125em;
+  left: 0.0625em;
+  right: 0.0625em;
+  height: 0.125em;
+  width: -0.125em;
+  background: linear-gradient(to right, green, white);
+}
+
+.navbar2 fieldset::after {
+  content: "";
+  position: absolute;
+  bottom: 0.0625em;
+  left: 0.0625em;   
+  right: 0.0625em;  
+  height: 0.0625em; 
+  width: -0.125em;  
+  background: linear-gradient(to right, green, white);  
+}
+
+.Presentation {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  background: linear-gradient(to right,#000000,#424242);
+}
+
+.Present {
+  max-width: 37.5em;
+ 
+}
+
+.Present h2 {
+  margin-bottom: 0.9375em;
+  font-size: 1.25em;
+}
+
+.Present h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 0.5625em;
+  color: lawngreen;
+}
+
+.Present h3 {
+  font-size: 1.875em;
+  font-weight: 700;
+  position: relative;
+  top: -1.3em;
+  vertical-align: super;
+}
+
+.Present h4 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 1.8125em;
+  color: lawngreen;
+}
+.experience {
+  display: inline-block;
+  color: gray;
+  padding: 0.625em;
+}
+
+.nombre {
+  font-size: 3.125vw;
+  position: relative;
+  top: -0.6em;
+  vertical-align: super;
+}
+
+.of-experience {
+  font-size: 1.25vw;
+  padding-left: 1.8125em;
+  position: relative;
+  top: -2.9em;
+  vertical-align: super;
+}
+
+.years {
+  font-size: 1.25vw;
+  position: relative;
+  top: -2.7em;
+  vertical-align: super;
+  padding-left: 0.25em;
+}
+
+.Projects {
+   display: inline-block;
+  color: gray;
+}
+
+.valeur {
+  font-size: 3.125em;
+  position: relative;
+  top: -0.8em;
+  vertical-align: super;
+}
+
+.Around {
+  font-size: 1.25em;
+  padding-left: 3.625em;
+  position: relative;
+  top: -3.5em;
+  vertical-align: super;
+}
+
+.Projets-comp {
+  font-size: 1.25em;
+  position: relative;
+  top: -3.5em;
+  vertical-align: super;
+  padding-left: 0.20em;
+}
+
+.image {
+  position: relative;
+  top: -0.80em;
+  vertical-align: super;
+  padding-left: 16.5em;
+}
+
+.About {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  background: linear-gradient(to left,#666666,#000000);
+}
+
+.AboutMe {
+  max-width: 37.5em;
+}
+
+.AboutMe h7 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 0.5625em;
+  color: lawngreen;
+  position: relative;
+  top: -11.1em;
+  vertical-align: super;
+}
+
+.AboutMe p {
+  position: relative;
+  top: -15.9em;
+  vertical-align: super;
+  margin-right: 10.3125em;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.title {
+  text-decoration: underline;
+  margin-right: 0.625em;
+}
+
+.sign {
+  font-size: 1.5em;
+}
+
+.projects {
+  font-size: 1.125em;
+}
+.skill{
+  background: black;
+  max-width: auto;
+  max-height: auto;
+}
+.skills h8 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 0.5625em;
+  color: lawngreen;
+  position: relative;
+  top: -15em;
+  vertical-align: super;
+  padding-left: 4.9em;
+}
+
+.skills parenthese {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 0.5625em;
+  color: white;
+  position: relative;
+  top: -9em;
+  vertical-align: super;
+  padding-left: 5.5em;
+}
+
+.imagejavascript {
+  position: relative;
+  top: -19.25em;
+  vertical-align: super;
+  padding-left: 6.875em;
+  height:auto;
+  max-width:100%;
+}
+
+.imageTS {
+  position: relative;
+  top: -23.5em;
+  padding-left: 13em;
+  height:auto;
+  max-width:100%;
+}
+
+.imagehtml5 {
+  position: relative;
+  top: -27.7em;
+  vertical-align: super;
+  padding-left: 19em;
+  height:auto;
+  max-width:100%;
+}
+
+.imagehtml3 {
+  position: relative;
+  top: -32em;
+  vertical-align: super;
+  padding-left: 25em;
+  height:auto;
+  max-width:100%;
+}
+
+.imageQuantumSurgical {
+  position: relative;
+  top: -36.2em;
+  vertical-align: super;
+  padding-left: 31em;
+  height:auto;
+  max-width:100%;
+}
+
+.imageRedux {
+  position: relative;
+  top: -40.4em;
+  vertical-align: super;
+  padding-left: 37.4em;
+  height:auto;
+  max-width:100%;
+
+}
+
+.imagenodejs {
+  position: relative;
+  top: -45em;
+  vertical-align: super;
+  padding-left: 45em;
+  height:auto;
+  max-width:100%;
+}
+
+.imagen {
+  position: relative;
+  top: -49.3em;
+  vertical-align: super;
+  padding-left: 49.9em;
+  height:auto;
+  max-width:100%;
+}
+
+.imagepingouing {
+  position: relative;
+  top: -46em;
+  vertical-align: super;
+  padding-left: 6.875em;
+  height:auto;
+  max-width:100%;
+}
+
+.imagepython {
+  position: relative;
+  top: -50.3em;
+  vertical-align: super;
+  padding-left: 12.4em;
+  height:auto;
+  max-width:100%;
+}
+
+.imageruby {
+  position: relative;
+  top: -54.6em;
+  vertical-align: super;
+  padding-left: 24.0625em;
+  height:auto;
+  max-width:100%;
+}
+
+.rails {
+  position: relative;
+  top: -59em;
+  vertical-align: super;
+  padding-left: 31.5em;
+  height:auto;
+  max-width:100%;
+}
+
+.Comp {
+  max-width: 37.5em;
+}
+
+.Comp h10 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 0.5625em;
+  color: lawngreen;
+  position: relative;
+  top: -32em;
+  vertical-align: super;
+  padding-left: 04.7em;
+}
+
+.Go-to-website h11 {
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-bottom: 0.5625em;
+  color: lawngreen;
+  position: relative;
+  top: -30em;
+  vertical-align: super;
+  padding-left: 12.8em;
+}
+
+.Go-to-website p {
+  position: relative;
+  top: -37.3em;
+  vertical-align: super;
+  margin-right: 40.5em;
+  padding-left: 09em;
+}
+
+.Go-to-website h12 {
+  position: relative;
+  top: -37.5em;
+  vertical-align: super;
+  margin-right: 50em;
+  padding-left: 15.2em;
+}
+
+.Go-to-website h12 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Go-to-website fieldset {
+  border: none;
+  margin: 1.25em;
+  position: relative;
+}
+
+.Go-to-website fieldset::before {
+  content: "";
+  position: absolute;
+  top: 0.125em;
+  left: 0.0625em;
+  right: 0.0625em;
+  height: 0.125em;
+  width: -0.125em;
+  background: linear-gradient(to right, green, white);
+}
+
+.Go-to-website fieldset::after {
+  content: "";
+  position: absolute;
+  bottom: 0.0625em;
+  left: 0.0625em;
+  right: 0.0625em;
+  height: 0.0625em;
+  width: -0.125em;
+  background: linear-gradient(to right, white, green);
+}
+
+.Go-to-website1 h13 {
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-bottom: 0.5625em;
+  color: lawngreen;
+  position: relative;
+  top: -20em;
+  vertical-align: super;
+  padding-left: 12.8em;
+}
+.Go-to-website1 p {
+  position: relative;
+  top: -25em;
+  vertical-align: super;
+  margin-right: 40.5em;
+  padding-left: 09em;
+}
+
+.Go-to-website1 h14 {
+  position: relative;
+  top: -25em;
+  vertical-align: super;
+  margin-right: 50em;
+  padding-left: 15.2em;
+}
+
+.Go-to-website1 h14 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Go-to-website1 fieldset1 {
+  border: none;
+  margin: 1.25em;
+  position: relative;
+}
+
+.Go-to-website1 fieldset1::before {
+  content: "";
+  position: absolute;
+  top: 0.125em;
+  left: 0.0625em;
+  right: 0.0625em;
+  height: 0.125em;
+  width: -0.125em;
+  background: linear-gradient(to right, green, white);
+}
+
+.Go-to-website1 fieldset1::after {
+  content: "";
+  position: absolute;
+  bottom: 0.0625em;
+  left: 0.0625em;
+  right: 0.0625em;
+  height: 0.0625em;
+  width: -0.125em;
+  background: linear-gradient(to right, white, green);
+}
+.Go-to-website2 h15 {
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-bottom: 0.5625em;
+  color: lawngreen;
+  position: relative;
+  top: -56.2em;
+  vertical-align: super;
+  padding-left: 40.5em;
+}
+.Go-to-website2 p{
+  position:relative;
+  top:-70em;
+  vertical-align: super;
+  margin-right: 07.5em;
+  padding-left: 43.5em;
+}
+.Go-to-website2 h16{
+  position:relative;
+  top:-70em;
+  vertical-align: super;
+  margin-right: 12.5em;
+  padding-left: 50.1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Go-to-website2 fieldset2 {
+  border: none;
+  margin: 1.25em;
+  position: relative;
+}
+.Go-to-website2 fieldset2::before {
+  content: "";
+  position: absolute;
+  top: 0.125em;
+  left: 0.0625em;
+  right: 0.0625em;
+  height: 0.125em;
+  width:-0.125em;
+  background: linear-gradient(to right, green, white);
+}
+.Go-to-website2 fieldset2::after {
+  content: "";
+  position: absolute;
+  bottom: 0.0625em;
+  left: 0.0625em;
+  right: 0.0625em;
+  height: 0.0625em;
+  width:-0.125em;
+  background: linear-gradient(to right, white, green);
+}
+
+.Go-to-website3 h17{
+  font-size: 1.25em;
+  font-weight: 700; 
+  margin-bottom: 0.5625em;
+  color: lawngreen;
+  position: relative;
+  top: -45em;
+  vertical-align: super;
+  padding-left: 40.5em;
+}
+.Go-to-website3 p{
+  position: relative;
+  top: -56.1em;
+  vertical-align: super;
+  margin-right: 07.5em;
+  padding-left: 43.5em;
+}
+.Go-to-website3 h18{
+  position: relative;
+  top: -56em;
+  vertical-align: super;
+  margin-right: 3.125em;
+  padding-left: 49.75em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Go-to-website3 fieldset3 {
+  border: none;
+  margin: 1.25em;
+  position: relative;
+}
+.Go-to-website3 fieldset3::before {
+  content: "";
+  position: absolute;
+  top: 0.125em;
+  left: 0.0625em;
+  right: 0.0625em;
+  height: 0.125em;
+  width: -0.125em;
+  background: linear-gradient(to right, green, white);
+}
+.Go-to-website3 fieldset3::after {
+  content: "";
+  position: absolute;
+  bottom: 0.0625em;
+  left: 0.0625em;
+  right: 0.0625em;
+  height: 0.0625em;
+  width: -0.125em;
+  background: linear-gradient(to right, white, green);
+}
+
+.Go-to-website4 h19 {
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-bottom: 0.5625em;
+  color: lawngreen;
+  position: relative;
+  top: -40em;
+  vertical-align: super;
+  padding-left: 40.5em;
+}
+.Go-to-website4 p {
+  position: relative;
+  top: -49.8em;
+  vertical-align: super;
+  margin-right: 07.5em;
+  padding-left: 43.5em;
+}
+.Go-to-website4 h20 {
+  position: relative;
+  top: -49.7em;
+  vertical-align: super;
+  margin-right: 3.125em;
+  padding-left: 49.75em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Go-to-website4 fieldset4 {
+  border: none;
+  margin: 1.25em;
+  position: relative;
+}
+.Go-to-website4 fieldset4::before {
+  content: "";
+  position: absolute;
+  top: 0.125em;
+  left: 0.0625em;
+  right: 0.0625em;
+  height: 0.125em;
+  width: -0.125em;
+  background: linear-gradient(to right, green, white);
+}
+.Go-to-website4 fieldset4::after {
+  content: "";
+  position: absolute;
+  bottom: 0.0625em;
+  left: 0.0625em;
+  right: 0.0625em;
+  height: 0.0625em;
+  width: -0.125em;
+  background: linear-gradient(to right, white, green);
+}
+
+.trait-vert1 {
+  position: relative;
+  top: -101em;
+  vertical-align: super;
+  padding-left: 36.25em;
+}
+.trait-vert2 {
+  position: relative;
+  top: -104.5em;
+  vertical-align: super;
+  padding-left: 36.25em;
+}
+.trait-vert3 {
+  position: relative;
+  top: -105.125em;
+  vertical-align: super;
+  padding-left: 36.25em;
+}
+.trait-vert4 {
+  position: relative;
+  top: -105.75em;
+  vertical-align: super;
+  padding-left: 36.25em;
+}
+.Project {
+  max-width: 37.5em;
+}
+#container {
+  white-space: nowrap;
+  position: relative;
+  top: -53em;
+  overflow: scroll;
+  height:auto;
+  max-width:100%;
+}
+.Pro {
+  max-width: 37.5em;
+}
+.pr {
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-bottom: 0.5625em;
+  position: relative;
+  top: -44em;
+  vertical-align: super;
+  padding-left: 5.625em;
+  color: lawngreen;
+ 
+}
+
+
+
